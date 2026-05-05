@@ -8,8 +8,8 @@ btn1.addEventListener("click", function () {
   let p1 = Math.floor(Math.random() * 6) + 1;
   let p2 = Math.floor(Math.random() * 6) + 1;
 
-  player1Img.src = "./images/dice" + p1 + ".png";
-  player2Img.src = "./images/dice" + p2 + ".png";
+  player1Img.src = "./dice" + p1 + ".png";
+  player2Img.src = "./dice" + p2 + ".png";
 
   if (p1 > p2) {
     h2Element.textContent = "Player 1 Wins!";
@@ -22,6 +22,6 @@ btn1.addEventListener("click", function () {
 
 btn2.addEventListener("click", function () {
   h2Element.textContent = "Roll dice!";
-  player1Img.src = "./images/dice1.png";
-  player2Img.src = "./images/dice1.png";
+  player1Img.src = "./dice1.png";
+  player2Img.src = "./dice1.png";
 });
