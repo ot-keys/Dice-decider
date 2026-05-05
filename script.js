@@ -10,7 +10,7 @@ btn1.addEventListener("click", function () {
 
   player1Img.src = "./dice" + p1 + ".png";
   player2Img.src = "./dice" + p2 + ".png";
-  
+
   if (p1 > p2) {
     h2Element.textContent = "Player 1 Wins!";
   } else if (p2 > p1) {
@@ -24,4 +24,4 @@ btn2.addEventListener("click", function () {
   h2Element.textContent = "Roll dice!";
   player1Img.src = "./dice1.png";
   player2Img.src = "./dice1.png";
-});
+}); 
